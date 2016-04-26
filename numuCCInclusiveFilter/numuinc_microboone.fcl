@@ -1,0 +1,16 @@
+BEGIN_PROLOG
+
+microboone_numuinc:
+{ 
+    module_type:                "numuCCIncFilter"
+
+  TrackModuleLabel: "pandoraNu"
+  VertexModuleLabel: "pandoraNu"
+  CosmicModuleLabel: "pandoraNuTag"
+  OpFlashModuleLabel: "opflash"
+  CosmicScoreCut: 0.4
+  NuVtxTrackDistCut: 4.5
+
+}
+
+END_PROLOG
