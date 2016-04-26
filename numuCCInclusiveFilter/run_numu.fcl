@@ -74,3 +74,11 @@ services.user.DetectorProperties.NumberTimeSamples:                             
 services.user.DetectorProperties.ReadOutWindowSize:                             6400
 services.user.DetectorClocksService.InheritClockConfig:                         false
 services.user.DetectorClocksService.TriggerOffsetTPC:                          -0.400e3
+
+
+physics.filters.numu.TrackModuleLabel: "pandoraNu"
+physics.filters.numu.VertexModuleLabel: "pandoraNu"
+physics.filters.numu.CosmicModuleLabel: "pandoraNuTag"
+physics.filters.numu.OpFlashModuleLabel: "opflash"
+physics.filters.numu.CosmicScoreCut: 0.4
+physics.filters.numu.NuVtxTrackDistCut: 4.5
